@@ -1,11 +1,12 @@
+/*
 package com.jeffbalbalosa;
 
-public class BasicHamburger extends Hamburger {
+public class Basic extends Hamburger {
     private int countAdditionalItems;
     private double burgerPrice;
 
-    public BasicHamburger(String rollType, double price) {  //, boolean addLettuce, boolean addTomato, boolean addCarrot
-        super("Basic Hamburger", 1, rollType, price);
+    public Basic(String rollType, double price) {  //, boolean addLettuce, boolean addTomato, boolean addCarrot
+        super("Basic Hamburger", "Sausage", rollType, price);
         burgerPrice +=price;
     }
 
@@ -17,3 +18,4 @@ public class BasicHamburger extends Hamburger {
     }
 
 }
+*/
